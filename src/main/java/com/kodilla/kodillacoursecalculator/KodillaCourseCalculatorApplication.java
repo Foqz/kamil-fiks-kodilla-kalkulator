@@ -1,10 +1,9 @@
 package com.kodilla;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KodillaCourseKalkulatorApplication {
+public class KodillaCourseCalculatorApplication {
     public void adding() {
         int c = 5 + 5;
         System.out.println(c);
@@ -14,7 +13,7 @@ public class KodillaCourseKalkulatorApplication {
         System.out.println(c);
     }
     public static void main(String[] args) {
-        KodillaCourseKalkulatorApplication calculator = new KodillaCourseKalkulatorApplication();
+        KodillaCourseCalculatorApplication calculator = new KodillaCourseCalculatorApplication();
         calculator.adding();
         calculator.substracting();
     }
