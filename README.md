@@ -1,1 +1,1 @@
-Testing first application on git
+Testing simple calculator application on git
